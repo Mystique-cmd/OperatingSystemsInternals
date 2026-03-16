@@ -72,7 +72,7 @@ name. Finally it closes the file*/
         }
     }
 // this closes hte proc directory after the loop finishes to free up resources. A return of 0 indicates that the program
-//executed successfullu
+//executed successfully
     closedir(dir);
     return 0;
 }
